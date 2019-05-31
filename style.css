@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    background: #042f3c;
+}
+
+.top-container {
+    display: flex;
+    justify-content: flex-end;
+    height: 75px;
+    align-items: flex-end;
+    
+}
+
+.top-content {
+    display: flex;
+    width: 300px;
+    padding-right: 300px;
+
+}
+
+.top-content a {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+
+.top-content a:hover {
+    color: blue;
+}
+
+.line-space {
+    width: 70%;
+    border: 0;
+    height: 1px;
+    margin-top: 50px;
+    background: white;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), grey, #10dfef, grey, rgba(0,0,0,0));
+}
+
