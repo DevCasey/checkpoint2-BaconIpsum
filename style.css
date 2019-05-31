@@ -19,19 +19,32 @@ body {
 }
 
 .top-content a {
+    display: inline-block;
     text-decoration: none;
     color: white;
-    padding-right: 50px;
+    padding-right: 25px;
 }
 
 
 .top-content input {
-    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 20px;
+    width: 400px;
+
 
 }
-.top-content a:hover {
-    color: blue;
+
+.top-content >  a {
+    transition: ease-in-out .5s;
 }
+
+.top-content > a:hover {
+    transition: ease-in-out .5s;
+    transform: scale(1.5);
+    color: #E33A1C;
+}
+
 
 .line-space {
     width: 70%;
