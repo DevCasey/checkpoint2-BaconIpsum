@@ -5,16 +5,16 @@ body {
 
 .top-container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     height: 75px;
-    align-items: flex-end;
     
 }
 
 .top-content {
     display: flex;
-    width: 300px;
-    padding-right: 300px;
+    width: 70%;
+    margin: auto;
+    padding-top: 75px;
 
 }
 
@@ -24,6 +24,11 @@ body {
     padding-right: 50px;
 }
 
+
+.top-content input {
+    margin-right: 20px;
+
+}
 .top-content a:hover {
     color: blue;
 }
