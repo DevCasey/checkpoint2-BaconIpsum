@@ -3,6 +3,12 @@ body {
     background: #042f3c;
 }
 
+.acc-title {
+    color: white;
+    text-align: center;
+}
+
+
 .top-container {
     display: flex;
     justify-content: flex-start;

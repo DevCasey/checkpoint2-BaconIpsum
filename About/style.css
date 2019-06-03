@@ -1,6 +1,12 @@
 body {
 	font-size: 100%;
     background: #042f3c;
+    font-family: "Arvo", serif;
+}
+
+.acc-title {
+    color: white;
+    text-align: center;
 }
 
 .top-container {
