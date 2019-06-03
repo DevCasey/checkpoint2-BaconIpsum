@@ -65,10 +65,23 @@ body {
     background-image: linear-gradient(to right, rgba(0,0,0,0), grey, #10dfef, grey, rgba(0,0,0,0));
 }
 
+.frame-main {
+    padding-top: 25px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
 .frame-container {
-    display: grid;
-    height: auto;
+    margin: auto;
+}
+
+/* .frame-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: auto;
+    /* height: auto; */
     margin-top: 100px;
     width: 100vw;
     background: grey;
-}
+} */
