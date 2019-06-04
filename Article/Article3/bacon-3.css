@@ -3,6 +3,11 @@ body {
     background: #042f3c;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .acc-title {
     color: white;
     text-align: center;
@@ -74,4 +79,30 @@ body {
     margin-top: 50px;
     background: white;
     background-image: linear-gradient(to right, rgba(0,0,0,0), grey, #10dfef, grey, rgba(0,0,0,0));
+}
+
+.main-container {
+    height: 70vh;
+    width: 1000px;
+    margin: auto;
+    background: grey;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    grid-gap: 1em;
+    padding-top: 65px;
+  }
+  
+.content {
+    width: 25%;
+    background: rgba(214, 206, 206, 0.7);
+}
+
+.content:hover {
+    background: rgba(214,206,206,0.3);
 }
