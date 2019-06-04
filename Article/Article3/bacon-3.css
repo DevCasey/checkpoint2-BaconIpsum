@@ -75,12 +75,3 @@ body {
     background: white;
     background-image: linear-gradient(to right, rgba(0,0,0,0), grey, #10dfef, grey, rgba(0,0,0,0));
 }
-
-.main-container {
-    height: 70vh;
-    width: 1000px;
-    margin: auto;
-    background: grey;
-}
-
-
