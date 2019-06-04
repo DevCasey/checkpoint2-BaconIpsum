@@ -13,6 +13,7 @@ body {
     display: flex;
     justify-content: flex-start;
     height: 75px;
+    /* position: absolute; */
     
 }
 
@@ -35,17 +36,6 @@ body {
 .top-content a:nth-child(n+2) {
     padding-left: 25px;
 }
-
-
-
-/* .top-content a {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    padding-right: 25px;
-    font-size: 1.5em;
-} */
-
 
 .top-content input {
     margin-top: auto;
@@ -75,3 +65,19 @@ body {
     background: white;
     background-image: linear-gradient(to right, rgba(0,0,0,0), grey, #10dfef, grey, rgba(0,0,0,0));
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    grid-gap: 1em;
+    padding-top: 100px;
+  }
+  
+  .content {
+    width: 25%;
+    background: rgba(214, 206, 206, 0.5);
+    
+  }
