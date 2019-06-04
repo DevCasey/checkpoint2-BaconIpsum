@@ -3,6 +3,12 @@ body {
     background: #042f3c;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
 .acc-title {
     color: white;
     text-align: center;
@@ -73,11 +79,15 @@ body {
     align-items: center;
     justify-items: center;
     grid-gap: 1em;
-    padding-top: 100px;
+    padding-top: 65px;
   }
   
-  .content {
-    width: 25%;
-    background: rgba(214, 206, 206, 0.5);
+.content {
+width: 25%;
+background: rgba(214, 206, 206, 0.7);
+}
+
+.content:hover {
+    background: rgba(214,206,206,0.3);
     
-  }
+}
