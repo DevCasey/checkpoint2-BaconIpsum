@@ -1,13 +1,13 @@
 body {
 	font-size: 100%;
     background: #042f3c;
+    font-family: "Arvo", serif;
 }
 
 .acc-title {
     color: white;
     text-align: center;
 }
-
 
 .top-container {
     display: flex;
@@ -35,17 +35,6 @@ body {
 .top-content a:nth-child(n+2) {
     padding-left: 25px;
 }
-
-
-
-/* .top-content a {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    padding-right: 25px;
-    font-size: 1.5em;
-} */
-
 
 .top-content input {
     margin-top: auto;
@@ -76,15 +65,12 @@ body {
     background-image: linear-gradient(to right, rgba(0,0,0,0), grey, #10dfef, grey, rgba(0,0,0,0));
 }
 
-.main-content {
-    height: 600px;
-    width: 70%;
-    background: grey;
-    margin: auto;
-    margin-top: 75px;
+.frame-main {
+    padding-top: 25px;
+    display: flex;
+    flex-flow: row wrap;
 }
 
-.my-frame {
-    height: 100%;
-    width: 100%;
+.frame-container {
+    margin: auto;
 }
